@@ -10,6 +10,7 @@ Activity的默认模式，所有的Activity元素遵循先进后出的进栈出�
 >启动顺序：A->B->C
 
 >回退顺序：C->B->A.
+
 ![Standard](https://github.com/linglongxin24/ActivityLaunchMode/blob/master/screenshorts/standard.png?raw=true)
 #2.SingleTop:栈顶复用模式
 栈顶复用模式，如果想要打开的activity在任务栈的栈顶已经存在，就不会创重新建新的实例，而是调用该Activity的 onNewIntent() 方法。避免栈顶的activity被重复的创建。
