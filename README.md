@@ -41,6 +41,8 @@ Activity的默认模式，所有的Activity元素遵循先进后出的进栈出�
 应用场景：系统的发短信，打电话，来电，浏览器等。这种模式在平时很少去使用，一般在Launcher中可能会用到。
 >例如A.C启动模式为Standard，B启动模式为SingleInstance
 >启动顺序：A->B->C；注意：此时产生了两个任务栈，B产生了一个新的任务栈，并处于其他任务栈的下面。
->回退顺序：B->A.而不是B—>D->C->B->A
+>回退顺序：C->A->B.而不是C->B->A
 
 ![SingleTop](https://github.com/linglongxin24/ActivityLaunchMode/blob/master/screenshorts/singleInstance.png?raw=true)
+
+#5.[GitHub](https://github.com/linglongxin24/ActivityLaunchMode)
