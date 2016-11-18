@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import cn.bluemobi.dylan.activitylaunchmode.singleinstance.SingleInstanceActivity;
 import cn.bluemobi.dylan.activitylaunchmode.singletask.SingleTaskActivity;
 import cn.bluemobi.dylan.activitylaunchmode.singletop.SingleTopActivity;
 
@@ -23,5 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick2(View view) {
         startActivity(new Intent(this, SingleTaskActivity.class));
+    }
+
+    public void onClick3(View view) {
+        startActivity(new Intent(this, SingleInstanceActivity.class));
     }
 }

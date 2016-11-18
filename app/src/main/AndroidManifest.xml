@@ -19,6 +19,9 @@
         <activity android:name=".singletask.SingleTaskActivity" android:launchMode="singleTask"/>
         <activity android:name=".singletask.LoginActivity"/>
         <activity android:name=".singletask.RegisterActivity"/>
+        <activity android:name=".singleinstance.SingleInstanceActivity"/>
+        <activity android:name=".singleinstance.SecondActivity" android:launchMode="singleInstance"/>
+        <activity android:name=".singleinstance.ThirdActivity"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              />
     </application>
 
 </manifest>
